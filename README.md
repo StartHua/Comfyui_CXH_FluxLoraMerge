@@ -2,6 +2,8 @@
 
 flux lora merge
 
+自动保存到lora目录：auto save to lora dir
+
 Merge type:
 
 1.自适应合并（使用张量范数和权重） adaptive Merge (uses tensor norms and weight)
