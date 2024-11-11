@@ -282,7 +282,7 @@ class CXH_Lora_Merge:
     def INPUT_TYPES(s):
         return {
             "required": {
-                "savename":("STRING"),
+                "savename":   ("STRING", {"multiline": False, "default": ""},), 
                 "main_lora": (folder_paths.get_filename_list("loras"), {"tooltip": "The name of the merged LoRA."}),
                 "merge_lora": (folder_paths.get_filename_list("loras"), {"tooltip": "The name of the merged LoRA."}),
                 "merge_type": (["adaptive", "manual","additive"],),
