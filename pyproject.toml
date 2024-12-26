@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_cxh_fluxloramerge"
+description = "flux lora merge.\nadaptive Merge (uses tensor norms and weight), manual Merge (uses fixed weights you specify), additive Merge (uses 100% of the first and adds a percentage of the second)"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["tqdm"]
+
+[project.urls]
+Repository = "https://github.com/StartHua/Comfyui_CXH_FluxLoraMerge"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "Comfyui_CXH_FluxLoraMerge"
+Icon = ""
